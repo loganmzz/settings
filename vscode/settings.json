@@ -1,0 +1,13 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
+{
+	"workbench.colorTheme": "Abyss",
+	"rust.executeCargoCommandInTerminal": true,
+	"terminal.integrated.scrollback": 10000,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.renderControlCharacters": true,
+	"[scss]": {
+		
+	},
+	"csscomb.formatOnSave": true,
+	"editor.detectIndentation": false
+}
