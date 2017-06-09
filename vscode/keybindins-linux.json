@@ -21,5 +21,15 @@
     {
         "key": "ctrl+alt+[Quote]",
         "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
     }
 ]
