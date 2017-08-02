@@ -7,6 +7,7 @@
 	"terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
 	"terminal.integrated.scrollback": 10000,
 	"workbench.iconTheme": "vscode-icons",
+	"workbench.editor.enablePreview": false,
 	"csscomb.formatOnSave": true,
 	"[scss]": {
 		
