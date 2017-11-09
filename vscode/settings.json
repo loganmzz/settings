@@ -1,15 +1,19 @@
-// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut
 {
-	"editor.detectIndentation": false,
-	"editor.renderControlCharacters": true,
-	"files.eol": "\n",
-	"rust.executeCargoCommandInTerminal": true,
-	"terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-	"terminal.integrated.scrollback": 10000,
-	"workbench.iconTheme": "vscode-icons",
-	"workbench.editor.enablePreview": false,
-	"csscomb.formatOnSave": true,
-	"[scss]": {
-		
-	}
+    "editor.detectIndentation": false,
+    "editor.renderControlCharacters": true,
+    "files.eol": "\n",
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.scrollback": 10000,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "csscomb.formatOnSave": true,
+    "[scss]": {
+
+    },
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
+    "vsicons.projectDetection.autoReload": true,
+    "typescript.tsserver.log": "verbose",
+    "editor.renderWhitespace": "all",
+    "window.title": "${dirty}${rootName}${separator}${activeEditorMedium}${separator}${rootPath}"
 }
