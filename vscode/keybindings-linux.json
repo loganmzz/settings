@@ -1,4 +1,3 @@
-// Place your key bindings in this file to overwrite the defaults
 [
     {
         "key": "ctrl+[Quote]",
@@ -31,5 +30,15 @@
         "key": "alt+right",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "tslint.fixAllProblems",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.tasks.test",
+        "when": "editorTextFocus"
     }
 ]
