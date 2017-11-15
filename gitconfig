@@ -1,0 +1,15 @@
+[user]
+	name = Logan Mzz
+	email = loganmzz@users.noreply.github.com
+[branch]
+	autosetuprebase = always
+[alias]
+    amend = commit --amend --no-edit
+[pull]
+	rebase = true
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
