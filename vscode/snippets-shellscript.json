@@ -4,7 +4,7 @@
 		"body": [
 			"#!/usr/bin/env bash",
 			"",
-			"basedir=\"$(cd \"\\${BASH_SOURCE}\" >/dev/null; pwd)\"",
+			"basedir=\"$(cd \"$(dirname \"\\${BASH_SOURCE}\")\" >/dev/null; pwd)\" || exit 1",
 			"",
 			"function main() {",
 			"   $0",
