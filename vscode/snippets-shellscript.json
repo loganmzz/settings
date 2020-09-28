@@ -1,0 +1,18 @@
+{
+	"Bash script": {
+		"prefix": "bash",
+		"body": [
+			"#!/usr/bin/env bash",
+			"",
+			"basedir=\"$(cd \"\\${BASH_SOURCE}\" >/dev/null; pwd)\"",
+			"",
+			"function main() {",
+			"   $0",
+			"   return 0",
+			"}",
+			"",
+			"main \"$@\""
+		],
+		"description": "Initiate Bash script"
+	}
+}
