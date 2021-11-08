@@ -13,6 +13,7 @@
 	rebase = true
 [core]
 	editor = code --wait
+	excludesFile = ~/.gitignore
 [diff]
     tool = default-difftool
 [difftool "default-difftool"]
